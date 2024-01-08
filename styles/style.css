@@ -29,6 +29,7 @@ p{
     background-size: cover;
     padding: 130px 0;
     margin: 50px auto;
+    position: static;
 }
 .banner .banner-heading h3{
     color: #FFF;
@@ -157,7 +158,7 @@ p{
 /* Details Styles*/
 .details{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    margin-bottom: 120px;
+    
 }
 .details .detail-des{
     text-align: center;
@@ -256,4 +257,80 @@ p{
 .b-offer-content .b-offer-des{
     padding-right: 60px;
     width: 100%;
+}
+
+/* Sale Styles */
+
+/* Sale Description Design */
+.sale .sale-des{
+    text-align: center;
+    align-items: center;
+}
+.sale .sale-des h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.sale .sale-des h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 10px 0 28px 0;
+}
+.sale .sale-des p{
+    padding: 0 126px 64px;
+}
+.sale .sale-des h1 .imp{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* Sale Figure Design */
+.sale-fig{
+    display: flex;
+    width: 100%;
+    height: 20px;
+}
+.sale-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+}
+.sale-content #girl{
+    position: relative;
+    top: 20px;
+    left: 445px;
+    z-index: 1;
+}
+.sale-content #base{
+    position: relative;
+    top: 20px;
+    width: 1099px;
+    left: 110px;
+    z-index: 2;   
+}
+.sale-content #gift{
+    position: relative;
+    bottom: 430px;
+    width: 480px;
+    right: 160px;
+    z-index: 3;
+}
+.sale-content #off{
+    position: relative;
+    bottom: 910px;
+    width: 300px;
+    left: 230px;
+    z-index: 4;
+}
+.tst{
+    margin-top: 800px;
 }
