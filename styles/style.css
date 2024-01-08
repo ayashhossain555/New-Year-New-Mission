@@ -11,6 +11,12 @@
     max-width: 1320px;
     margin: 0 auto;
 }
+p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 /* Header Styles */
 
@@ -148,3 +154,106 @@
     padding-right: 138px;
 }
 
+/* Details Styles*/
+.details{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-bottom: 120px;
+}
+.details .detail-des{
+    text-align: center;
+    align-items: center;
+    padding: 100px 0 214px 0;
+}
+.details .detail-des h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.details .detail-des .imp{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.details .detail-des button{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 48px;
+}
+
+/* Best Offer Design */
+.best-offer{
+    margin-bottom: 120px;
+    display: flex;
+}
+.best-offer .b-offer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: static;
+}
+
+.best-offer .b-offer-content .b-offer-des h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.best-offer .b-offer-content .b-offer-des h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 44px;
+    font-weight: 900;
+    width: 375px;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.best-offer .b-offer-time h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.best-offer .b-offer-content .b-offer-img{
+    border: #F00 10px solid;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 25px;
+}
+.best-offer .b-offer-content .b-offer-img img{
+    width: 300px;
+    object-fit: cover;
+    display: block;
+}
+.best-offer .b-offer-time img{
+    margin-top: 43px;
+}
+.best-offer .b-offer-time{
+    padding-top: 150px;
+    padding-left: 110px;
+    width: 100%;
+}
+.b-offer-content .b-offer-des{
+    padding-right: 60px;
+    width: 100%;
+}
