@@ -331,6 +331,112 @@ p{
     left: 230px;
     z-index: 4;
 }
-.tst{
+
+/* Portfolio Styles */
+.portf{
     margin-top: 800px;
+    margin-bottom: 120px;
+}
+.portf-content .portf-des h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.portf-content .portf-des h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.portf-content .portf-des p{
+    margin-bottom: 48px;
+    padding-right: 220px;
+}
+.portf-content .portf-img{
+    display: block;
+    gap: 20px;
+    align-items: center;
+}
+.portf-content .portf-img .rw1, .rw2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 17px;
+}
+.portf-content .portf-img .rw1 img, .rw2 img{
+    width: 350px;
+    height: auto;
+    cursor: pointer;
+}
+.hvr:hover{
+    border: 3px solid lightcoral;
+    border-radius: 15px;
+    transform: scale(1.03);
+    opacity: 0.9;
+    transition: transform 0.3s ease;
+}
+
+/* Newsletter Styles */
+.newsletter{
+    margin-bottom: 200px;
+}
+.newsletter .n-bg{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    align-items: center;
+    text-align: center;
+}
+.n-heading h2{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.n-heading > p{
+    padding-right: 110px;
+    padding-left: 110px;
+    margin-bottom: 48px;
+}
+.n-heading > img{
+    width: 150px;
+    margin-bottom: 40px;
+}
+.newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+}
+.newsletter form input{
+    flex-grow: 1;
+    border: none;
+    padding: 20px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+button{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 15px 28px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
 }
