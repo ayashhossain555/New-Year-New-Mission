@@ -292,40 +292,39 @@ p{
 .sale-fig{
     display: flex;
     width: 100%;
-    height: auto;
 }
 .sale-content{
-    display: flex;
-    flex-direction: column;
+    display: block;
     align-items: center;
     justify-content: space-around;
     position: absolute;
 }
 .sale-content #girl{
     position: relative;
-    bottom: 60px;
-    left: 445px;
+    bottom: 75px;
+    width: 400px;
+    left: 809px;
     z-index: 1;
 }
 .sale-content #base{
     position: relative;
-    bottom: 60px;
+    bottom: 80px;
     width: 1099px;
     left: 110px;
     z-index: 2;   
 }
 .sale-content #gift{
     position: relative;
-    bottom: 510px;
-    width: 480px;
-    right: 160px;
+    bottom: 588px;
+    width: 580px;
+    left: 120px;
     z-index: 3;
 }
 .sale-content #off{
     position: relative;
-    bottom: 1010px;
+    bottom: 792px;
     width: 300px;
-    left: 230px;
+    left: 72px;
     z-index: 4;
 }
 
@@ -356,20 +355,15 @@ p{
     margin-bottom: 48px;
     padding-right: 220px;
 }
-.portf-content .portf-img{
-    display: block;
-    gap: 20px;
-    align-items: center;
-}
-.portf-content .portf-img .rw2, .rw1{
+.portf-content .portf-img .rw{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    padding-bottom: 17px;
+    /* padding-bottom: 17px; */
+    gap: 25px;
 }
-.portf-content .portf-img .rw2 img, .rw1 img{
+.portf-content .portf-img .rw img{
     width: 350px;
-    height: auto;
     cursor: pointer;
 }
 .hvr:hover{
@@ -379,7 +373,6 @@ p{
     opacity: 0.9;
     transition: transform 0.3s all;
 }
-
 /* Newsletter Styles */
 
 .newsletter .n-bg{
