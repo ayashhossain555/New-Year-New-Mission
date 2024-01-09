@@ -22,7 +22,6 @@ p{
 /* Header Styles */
 
 /* Banner Styles */
-
 .banner .b-bg{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner Image.png");
     border-radius: 16px;
@@ -51,10 +50,11 @@ p{
     line-height: 95px; /* 131.944% */
 }
 
+
+
 /* Main Styles */
 
 /* Offer Styles */
-
 .offer .offer-des h1{
     color: #F00;
     text-align: center;
@@ -256,7 +256,7 @@ p{
     width: 100%;
 }
 
-/* Sale Styles */
+/* Sales Styles */
 
 /* Sale Description Design */
 .sale .sale-des{
@@ -361,13 +361,13 @@ p{
     gap: 20px;
     align-items: center;
 }
-.portf-content .portf-img .rw1, .rw2{
+.portf-content .portf-img .rw2, .rw1{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 17px;
 }
-.portf-content .portf-img .rw1 img, .rw2 img{
+.portf-content .portf-img .rw2 img, .rw1 img{
     width: 350px;
     height: auto;
     cursor: pointer;
@@ -377,7 +377,7 @@ p{
     border-radius: 15px;
     transform: scale(1.03);
     opacity: 0.9;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s all;
 }
 
 /* Newsletter Styles */
